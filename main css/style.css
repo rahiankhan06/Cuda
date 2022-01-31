@@ -1,0 +1,183 @@
+/* Global css */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+section{
+    padding: 25px 0px;
+}
+.h1{
+font-weight: bold;
+font-size: 40px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 35px;
+}
+.h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+p{
+font-weight: lighter;
+font-size: 15px;
+}
+/* header */
+header{
+    background: #74358c;
+}
+.navbar-dark .navbar-nav .nav-link.active{
+    color: #fff;
+    background: #0000003b;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.navbar-dark .navbar-nav .nav-link{
+    margin: 0px 10px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    background: #0000003b;
+    border-radius: 5px;
+}
+.header-content{
+ padding: 125px 0px;
+}
+.header-content-btn{
+   background: #eb7d4b;
+   border: none;
+   color: white;
+   padding: 13px 40px;
+   font-weight: 600;
+   border-radius: 5px;
+   margin-top: 50px;
+    
+}
+.header-content-button :hover{
+    box-shadow: 2px 2px 2px #c86a40;
+}
+/* service section */
+.service{
+    background: #17c2a4;
+}
+.underline{
+    width: 75px;
+    border-bottom: 4px solid rgba(148, 146, 146, 0.76);
+    margin: 10px auto;
+}
+/* Team Section */
+.Team{
+    background: #e7f1f8;
+}
+.Team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+.Team h4{
+    color: rgb(0, 183, 255);
+}
+
+.Social{
+    
+}
+.Social i{
+    background: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 0px 3px;
+}
+/* skill section */
+.skill-para{
+    font-size: 60px;
+    position: relative;
+    top: -40%;
+    left: 3%;
+}
+.skill-para h3{
+    margin-top: -80px;
+}
+/* Portfolio scetion */
+.Portfolio{
+    background: #ffdd99;
+}
+.btn-cstm{
+background: rgba(138, 138, 138, 0.884);
+border: none;
+}
+.portfolio-para{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    }
+    .portfolio-btn{
+    margin-top: 40px;
+    background: #17c2a4;
+    color: #fff;
+    border: none;
+    padding: 13px 40px;
+    font-weight: 400;
+    }
+    /* About section */
+    .about{
+        background: #d74680;
+       
+    }
+    .about h5{
+        color: rgb(255, 199, 167);
+    }
+    .about-img{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        position: relative;
+        left: 25px;
+    }   
+    .flex-grow-1 p{
+        font-style: italic;
+    }
+    /* contant section */
+    .contant{
+    background: #3c5499;
+    }
+    .input-cstm{
+        width: 100%;
+        background: #273a71;
+        border: none;
+       padding: 13px 110px;
+       position: relative;
+       margin-right: 85px;
+    }
+ .input-cstm::placeholder{
+     color: #e7f1f8;
+     text-align: start;
+ }
+ .input-btn{
+    margin-top: 40px;
+    background: #30bae7;
+    color: #fff;
+    border: none;
+    padding: 13px 40px;
+    font-weight: 400;
+ }
+ .input-btn :hover{
+     box-shadow: 2px 2px 2px #299ec5;
+ }
+ footer{
+     background: #344b8e;
+ }
+ .footer-ul{
+     color: #fff;
+ }
+ .footer-ul li a :hover{
+     color: blueviolet;
+ }
